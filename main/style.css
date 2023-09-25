@@ -1,0 +1,52 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+header {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(/assets/Categorias_Vehiculos_BMW.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+header .header__nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+}
+header .ul__li--a {
+  text-decoration: none;
+  color: white;
+  font-size: 10px;
+  padding-right: 5px;
+  font-weight: bold;
+}
+
+.ulFlex {
+  display: flex;
+  align-items: center;
+}
+
+.imgIcon {
+  width: 20px;
+}
+
+.imgLogo {
+  width: 40px;
+  padding-left: 20px;
+}
+
+header::after {
+  content: "";
+  display: block;
+  width: 90%;
+  height: 1px;
+  background-color: white;
+  margin-top: -10px;
+  margin-left: 20px;
+  opacity: 0.3;
+}/*# sourceMappingURL=style.css.map */
