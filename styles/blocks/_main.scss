@@ -1,0 +1,63 @@
+main{
+    width: 100%;
+    height: 500vh;
+}
+
+.herramientas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+
+    h3{
+        font-size: 0.7rem;
+    }
+    h2{
+        font-weight: lighter;
+    }
+
+    img{
+        width: 400px;
+    }
+    button{
+        width: 150px;
+        height: 50px;
+        border: 1px solid black;
+        background-color: white;
+        border-radius: 3px;
+    }
+}
+
+.flexImg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imgVideo{
+    width:410px;
+    height: 600px;
+    margin-top: 40px;
+}
+
+
+.divTextoG {
+    color: white;
+    position: absolute;
+    background-color: black;
+    box-shadow: 0 0 40px 50px black;
+    margin-top: 0px;
+    height: 200px;
+    text-align: center;
+    font-family: bmwTypeNextWeb, Arial, Helvetica, Roboto, sans-serif;
+
+    h2 {
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+    }
+}
+
+.sectioni5{
+    margin-top: 300px;
+    background-image:url("https://bmw.scene7.com/is/image/BMW/LT_i5_b-1:1to1?fmt=webp&wid=600&hei=600") ;
+}

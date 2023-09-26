@@ -26,7 +26,7 @@
 }
 
 header {
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   background-image: url("https://images-ext-1.discordapp.net/external/J-3qIXDYBNj4EQ4UTlKiDLeuf6cyb9BDzDU-l3yCTv4/%3Ffmt%3Dwebp%26wid%3D1024%26hei%3D1024/https/bmw.scene7.com/is/image/BMW/the-first-ever-bmw-iX1%3A1to1?width=671&height=671");
   background-repeat: no-repeat;
@@ -40,6 +40,12 @@ header {
   }
 }
 @media screen and (min-width: 992px) {
+  header {
+    background-size: cover;
+    background-image: url("https://images-ext-2.discordapp.net/external/9SCKv8HKq3S9kNPUc10DcCTDx94dEwQxSaEspg7jeZs/%3Ffmt%3Dwebp%26wid%3D1504%26hei%3D841/https/bmw.scene7.com/is/image/BMW/the-first-ever-bmw-iX1%3A16to9?width=998&height=558");
+  }
+}
+@media screen and (min-width: 1200px) {
   header {
     background-size: cover;
     background-image: url("https://images-ext-2.discordapp.net/external/9SCKv8HKq3S9kNPUc10DcCTDx94dEwQxSaEspg7jeZs/%3Ffmt%3Dwebp%26wid%3D1504%26hei%3D841/https/bmw.scene7.com/is/image/BMW/the-first-ever-bmw-iX1%3A16to9?width=998&height=558");
@@ -121,6 +127,14 @@ header::after {
   height: 350px;
   text-align: center;
   font-family: bmwTypeNextWeb, Arial, Helvetica, Roboto, sans-serif;
+  /* da error
+  @include landscape{
+       width: 30%;
+       margin-top: 500px;
+       background: none;
+       box-shadow: none;
+       margin-left: 100px;
+   }*/
 }
 .divTextoG h1 {
   font-size: 3rem;
@@ -178,6 +192,71 @@ header::after {
 }
 @media screen and (min-width: 768px) {
   .boxWhite {
-    margin-top: 1200px;
+    margin-top: 900px;
   }
+}
+@media screen and (min-width: 992px) {
+  .boxWhite {
+    margin-top: 900px;
+  }
+}
+
+main {
+  width: 100%;
+  height: 500vh;
+}
+
+.herramientas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+.herramientas h3 {
+  font-size: 0.7rem;
+}
+.herramientas h2 {
+  font-weight: lighter;
+}
+.herramientas img {
+  width: 400px;
+}
+.herramientas button {
+  width: 150px;
+  height: 50px;
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 3px;
+}
+
+.flexImg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imgVideo {
+  width: 410px;
+  height: 600px;
+  margin-top: 40px;
+}
+
+.divTextoG {
+  color: white;
+  position: absolute;
+  background-color: black;
+  box-shadow: 0 0 40px 50px black;
+  margin-top: 0px;
+  height: 200px;
+  text-align: center;
+  font-family: bmwTypeNextWeb, Arial, Helvetica, Roboto, sans-serif;
+}
+.divTextoG h2 {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.sectioni5 {
+  margin-top: 300px;
+  background-image: url("https://bmw.scene7.com/is/image/BMW/LT_i5_b-1:1to1?fmt=webp&wid=600&hei=600");
 }/*# sourceMappingURL=style.css.map */
