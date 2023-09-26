@@ -45,7 +45,7 @@ header {
     background-image: url("https://images-ext-2.discordapp.net/external/9SCKv8HKq3S9kNPUc10DcCTDx94dEwQxSaEspg7jeZs/%3Ffmt%3Dwebp%26wid%3D1504%26hei%3D841/https/bmw.scene7.com/is/image/BMW/the-first-ever-bmw-iX1%3A16to9?width=998&height=558");
   }
 }
-header .headernav {
+header .header__nav {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -140,17 +140,20 @@ header::after {
 }
 @media screen and (min-width: 768px) {
   .divTextoG {
-    width: 50%;
+    width: 30%;
     margin-top: 500px;
     background: none;
     box-shadow: none;
     margin-left: 100px;
   }
+  .divTextoG h1 {
+    font-size: 2rem;
+  }
 }
 @media screen and (min-width: 992px) {
   .divTextoG {
     background-size: cover;
-    width: 0;
+    width: 50%;
     height: 180vh;
   }
 }
@@ -175,6 +178,6 @@ header::after {
 }
 @media screen and (min-width: 768px) {
   .boxWhite {
-    margin-top: 1500px;
+    margin-top: 1200px;
   }
 }/*# sourceMappingURL=style.css.map */
