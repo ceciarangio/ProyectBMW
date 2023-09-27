@@ -1,0 +1,32 @@
+footer{
+    width: 100%;
+    height: 300vh;
+}
+
+.footer1{
+    padding-left: 50px;
+ 
+
+    h4{
+        font-size: 0.7rem;
+    }
+
+    .h4Footer{
+        font-weight: lighter;
+    }
+}
+
+.bgGrey{
+    background-color: #f6f6f6;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.imgRedes{
+    display: flex;
+    justify-content: space-evenly;
+
+    img{
+        width: 20px;
+    }
+}
