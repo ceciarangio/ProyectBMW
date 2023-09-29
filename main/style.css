@@ -94,7 +94,6 @@ header::after {
 .ulFlexColumn a {
   display: flex;
   justify-content: space-between;
-  margin-top: 10px;
 }
 
 .imgIconFlecha {
@@ -279,7 +278,8 @@ main {
 
 footer {
   width: 100%;
-  height: 300vh;
+  height: 50vh;
+  background-color: white;
 }
 
 .footer1 {
@@ -294,14 +294,36 @@ footer {
 
 .bgGrey {
   background-color: #f6f6f6;
-  padding-top: 30px;
+  padding-top: 50px;
   padding-bottom: 20px;
+}
+.bgGrey h4 {
+  font-size: 0.7rem;
+  font-weight: bold;
 }
 
 .imgRedes {
+  padding-top: 50px;
   display: flex;
   justify-content: space-evenly;
 }
 .imgRedes img {
   width: 20px;
+}
+
+.divFooter {
+  text-align: center;
+  font-size: 0.7rem;
+  margin-top: 20px;
+}
+
+.sectionFooter {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+.sectionFooter p {
+  font-size: 0.5rem;
+  font-weight: bold;
 }/*# sourceMappingURL=style.css.map */
